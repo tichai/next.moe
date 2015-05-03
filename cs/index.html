@@ -7,6 +7,7 @@
 		<script src="./js/jquery.min.js"></script>
 		 <!-- Custom Theme files -->
 		<link href="./css/style.css" rel='stylesheet' type='text/css' />
+		<link id="lang" rel="stylesheet" type="text/css" href="./css/zh_CN.css">
    		 <!-- Custom Theme files -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -29,6 +30,17 @@
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
 			});
+		</script>
+		<script type="text/javascript">
+			function changeLang (str) {
+				var lang = document.getElementById('lang');
+				if (str == "0")
+					lang.setAttribute("href","./css/zh_CN.css");
+				if (str == "1")
+					lang.setAttribute("href","./css/en_US.css");
+
+				// body...
+			}
 		</script>
 		 <!---- start-smoth-scrolling---->
 		<!----- webfonts ------>
@@ -66,12 +78,13 @@
 						<!----start-top-nav---->
 						 <nav class="top-nav">
 							<ul class="top-nav">
-								<li class="active"><a href="#home" class="scroll">首页 </a></li>
-								<li><a href="#about" class="scroll">关于</a></li>
-								<li><a href="#services" class="scroll">Services</a></li>
-								<li><a href="#portfolio" class="scroll">Portfolio</a></li>
-								<li><a href="#team" class="scroll">Team</a></li>
-								<li><a href="#contact" class="scroll">Contact</a></li>
+								<li class="active"><a href="#home" class="scroll" id="zh_CN">首页 </a><a href="#home" class="scroll" id="en_US">Home</a></li>
+								<li><a href="#about" class="scroll" id="zh_CN">关于</a><a href="#about" class="scroll" id="en_US">About</a></li>
+								<li><a href="#services" class="scroll" id="zh_CN">服务</a><a href="#services" class="scroll" id="en_US">Services</a><</li>
+								<li><a href="#portfolio" class="scroll" id="zh_CN">活动</a><a href="#portfolio" class="scroll" id="en_US">Events</a></li>
+								<li><a href="#team" class="scroll" id="zh_CN">团队</a><a href="#team" class="scroll" id="en_US">Team</a></li>
+								<li><a href="#contact" class="scroll" id="zh_CN">咨询</a><a href="#contact" class="scroll" id="en_US">Consultation</a></li>
+								<li><a href="#" onclick="changeLang(1)" id="zh_CN">English</a><a href="#" onclick="changeLang(0)" id="en_US">中文</a></li>
 							</ul>
 							<a href="#" id="pull"><img src="./images/menu-icon.png" title="menu" /></a>
 						</nav>
