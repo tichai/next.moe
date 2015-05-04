@@ -1,3 +1,101 @@
 #en_US{
 	display: none;
 }
+
+html, body{
+  	font-family: Helvetica, '微软雅黑', sans-serif, zh-hans-sans;
+    font-size: 100%;
+  	background: #FFf;
+}
+
+.top-nav ul li a{
+	font-family: Helvetica, sans-serif;
+}
+
+.callbacks_tabs a:after {
+	font-family: FontAwesome;
+}
+
+.tittle-head h1 {
+	font-family: Helvetica, sans-serif;
+}
+
+.tittle-head  p {
+	font-family: Helvetica, sans-serif;
+}
+
+.slide-btn {
+	font-family: Helvetica, sans-serif;
+}
+
+.about-head h3{
+	font-family: Helvetica, sans-serif;
+}
+
+.about-head span {
+	font-family: Helvetica, sans-serif;
+
+.about-head p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.service_grid h3 {
+	font-family: Helvetica, sans-serif;
+}
+
+.service_grid p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.gallery-head h3,.port-head h3,.team-head h3,.feed-head h3 {
+	font-family: Helvetica, sans-serif;
+}
+
+.gallery-head p,.port-head p,.team-head p,.feed-head p {
+	font-family: Helvetica, sans-serif;
+}
+
+.potrfolio-head h2{
+	font-family: Helvetica, sans-serif;
+}
+
+.prt-btn,.con-btn {
+	font-family: Helvetica, sans-serif;
+}
+
+.team_grid h3 {
+	font-family: Helvetica, sans-serif;
+}
+
+.team_grid p{
+	font-family: Helvetica, sans-serif;
+}
+
+.contact-head h3{
+	font-family: Helvetica, sans-serif;
+}
+
+.contact-form input[type="text"] {
+	font-family: Helvetica, sans-serif;
+}
+
+.contact-form textarea {
+	font-family: Helvetica, sans-serif;
+}
+
+.contact-form input[type="submit"] {
+	font-family: Helvetica, sans-serif;
+}
+
+.address h4 {
+	font-family: Helvetica, sans-serif;
+}
+
+.address p,
+.address p a {
+	font-family: Helvetica, sans-serif;
+}
+
+.copy-right p {
+	font-family: Helvetica, sans-serif;
+}

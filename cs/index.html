@@ -82,7 +82,7 @@
 								<li><a href="#about" class="scroll" id="zh_CN">关于</a><a href="#about" class="scroll" id="en_US">About</a></li>
 								<li><a href="#services" class="scroll" id="zh_CN">服务</a><a href="#services" class="scroll" id="en_US">Services</a><</li>
 								<li><a href="#portfolio" class="scroll" id="zh_CN">活动</a><a href="#portfolio" class="scroll" id="en_US">Events</a></li>
-								<li><a href="#team" class="scroll" id="zh_CN">团队</a><a href="#team" class="scroll" id="en_US">Team</a></li>
+								<li><a href="#team" class="scroll" id="zh_CN">嘉宾</a><a href="#team" class="scroll" id="en_US">Advisor</a></li>
 								<li><a href="#contact" class="scroll" id="zh_CN">咨询</a><a href="#contact" class="scroll" id="en_US">Consultation</a></li>
 								<li><a href="#" onclick="changeLang(1)" id="zh_CN">English</a><a href="#" onclick="changeLang(0)" id="en_US">中文</a></li>
 							</ul>
@@ -124,7 +124,8 @@
 			        		<h1>Simple landing page</h1>
 			          		<p>Just for you. </p>
 			          		<div class="learn-button">
-			          			<a class="slide-btn" href="#about">了解更多</a>
+			          			<a class="slide-btn" href="#about" id="zh_CN">了解更多</a>
+			          			<a class="slide-btn" href="#about" id="en_US">Know More</a>
 			          		</div>
 			          	</div>
 			        </li>
@@ -133,7 +134,8 @@
 			        		<h1>Lorem ipsum dolor</h1>
 			          		<p>Just for you. </p>
 			          		<div class="learn-button">
-			          			<a class="slide-btn" href="#about" >了解更多</a>
+			          			<a class="slide-btn" href="#about" id="zh_CN">了解更多</a>
+			          			<a class="slide-btn" href="#about" id="en_US">Know More</a>
 			          		</div>
 			          	</div>
 			        </li>
@@ -142,7 +144,8 @@
 			        		<h1>Simple&pure design</h1>
 			          		<p>Just for you. </p>
 			          		<div class="learn-button">
-			          			<a class="slide-btn" href="#about">了解更多</a>
+			          			<a class="slide-btn" href="#about" id="zh_CN">了解更多</a>
+			          			<a class="slide-btn" href="#about" id="en_US">Know More</a>
 			          		</div>
 			          	</div>
 			        </li>
@@ -154,9 +157,11 @@
 			<div id="about" class="about">
 				<div class="container">
 					<div class="about-head">
-						<h3>About</h3>
-						<span>Who we are?</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet lectus congue
+						<h3 id="zh_CN">About</h3>
+						<h3 id="en_US">About</h3>
+						<span id="en_US">Who we are?</span>
+						<p id="zh_CN"></p>
+						<p id="en_US">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet lectus congue
 						mi viverra congue in sed leo. Nullam magna nisl, hendrerit non urna et, eleifend pulvinar
 						augue. Suspendisse lacinia molestie ipsum ac semper. Lorem ipsum dolor sit amet,
 						consectetur adipiscing elit. Praesent vel scelerisque purus.</p>
@@ -168,8 +173,9 @@
 			<div id="services" class="services">
        		<div class="container">
        		   <div class="gallery-head text-center">
-				  <h3>Services</h3>
-				  <p>What we do?.</p>
+				  <h3 id="zh_CN">我们的服务</h3>
+				  <h3 id="en_US">Services</h3>
+				  <p id="en_US">What we do?.</p>
 			    </div>
        			<div class="row text-center feature">
        				<div class="col-md-4 service_grid">
@@ -310,7 +316,9 @@
 			 </div>
 			</div>
 	 	  </div>
-	 	   <div id="contact" class="feedback">
+
+	 	   <!--<div id="contact" class="feedback">
+	 	   
 	 	   		<div class="container">
 	 	   			<div class="feed-head">
 	 	 			<h3>Contact </h3>
@@ -318,20 +326,23 @@
 	 	 		</div>
 	 	 		<div class="feed-contact">
 				 	 			<div class="col-md-8 contact-form">
+				 	 			<!--
 											<form>
 												<input type="text" class="textbox" value="Name" onfocus="this.value = '';" onblur="if (this.value = 'Name') {this.value = 'Name';}">
 												<input type="text" class="textbox" value="E-mail" onfocus="this.value = '';" onblur="if (this.value ='E-mail') {this.value = 'E-mail';}">
 												<textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
-												<input type="submit" value="Send a message" >
+												<input type="submit" value="留言咨询" >
 
 											</form>
+								
 								</div>
 								<div class="col-md-4 address">
-										<h4>Our company </h4>
-										<p>55 Main St.Toronto</p>
-										<p>1234 City Road,city Name.</p><br>
-										<p>+1534 432 123</p>
-										<p><a href="#" >Contact@company name</a></p>
+										<h4>Next Education </h4>
+										<p><b>镇江咨询中心</b></p>
+										<p>江苏省 镇江市 润州区</p>
+										<p>小码头街 11-12 号</p><br>
+										<p><b>客户关怀：</b>+1(323)484-3313</p>
+										<p><a href="#" >service@connext.moe</a></p>
 									<div class="footer-icons">
 										<ul class="soc_icons unstyled-list list-inline">
 											<li><a href="#"><i class="icon_1"></i></a></li>
@@ -346,13 +357,14 @@
 						</div>
 					</div>
 				</div>
+			-->
 				<div class="footer">
 						<div class="container">
 							<div class="logo2">
 								   <img src="./images/logo2.png" alt="">
 							</div>
 							<div class="copy-right">
-								<p>&copy; 2014  All rights  Reserved | NEXT EDUCATION</p>
+								<p>&copy; 2014  All rights  Reserved | Next Education</p>
 							</div>								
 							<div class="clearfix"> </div>
 						</div>	
