@@ -615,6 +615,7 @@ i.icon3:hover{
    display: block;
    position: relative;
 }
+/*language*/
 .view a.info {
    background:url(../images/caption.png) center no-repeat;
    display: inline-block;
